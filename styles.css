@@ -4,59 +4,69 @@ body {
     background-color: #229c9c;
     color: black;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
-}
-
-/*~~~~~~~~~~~~~~~~~~~~ STRUCTURE ~~~~~~~~~~~~~~~~~~~~*/
-
-
-html, body, .container {
+    }
+    
+    /*~~~~~~~~~~~~~~~~~~~~ STRUCTURE ~~~~~~~~~~~~~~~~~~~~*/
+    
+    
+    html, body, .container
+    {
     height:100%;
-}
-
-.container {
+    }
+    
+    .container
+    {
     text-align: center;
-    color: white;
-}
-
-.left {
+    color: white
+    }
+    
+    .left
+    {
     background-color: #229c9c;
     float:left;
     width:10%;
     height:100%;
     overflow: hidden;
     text-align: center;
-}
-
-.right {
+    }
+    
+    .right
+    {
     background-color: #229c9c;
     float:left;
     width:10%;
     height:100%;
     overflow: hidden;
     text-align: center;
-}
-
-.main {
+    }
+    
+    .main
+    {
     background-color:#297e84;
     float:left;
     height:100%;
     width: 80%;
     overflow-y:scroll;
-}
-
-.button-box-wrapper {
+    }
+    
+    .button-box-wrapper {
     display: inline-flex;
     flex-direction: column;
-}
-
-.button-box:hover {
-    filter: brightness(120%);
-    box-shadow: 10px 10px 10px #000;
-}
-  
-.button-box:active {
-    box-shadow: inset 2px 2px 10px #000;
-}
+    }
+    
+    .button-box:hover {
+        filter: brightness(120%);
+        box-shadow: 10px 10px 10px #000;
+      }
+    
+    .button-box {
+    margin: 10px;
+    border-radius: 10px;
+    }
+      
+    .button-box:active {
+        box-shadow: inset 2px 2px 10px #000;
+      }
 
 /*~~~~~~~~~~~~~~~~~~~~ STYLE ON ELEMENTS ~~~~~~~~~~~~~~~~~~~~*/
 
@@ -79,9 +89,28 @@ h2 {
     margin: 10px;
     border-radius: 10px;
 }
+
+.button-box:hover {
+    filter: brightness(120%);
+    box-shadow: 10px 10px 10px #000;
+}
+  
+.button-box:active {
+    box-shadow: inset 2px 2px 10px #000;
+}
+
  
 .emoji {
     font-size: 30px;
 }
 /*~~~~~~~~~~ ENTER CATEGORY HERE ~~~~~~~~~~*/
+
+
+/* .game-play-options {
+    display: none;
+}  */
+
+/* .button-box {
+    display: none;
+} */ 
 /*-------img------*/
