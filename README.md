@@ -34,7 +34,3 @@ A simple **Rock, Paper, Scissors** game with both a **classic** mode and a **wil
 - HTML
 - CSS
 - JavaScript
-
----
-🔹 Created by **Terra Manning**  
-```
