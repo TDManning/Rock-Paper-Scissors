@@ -38,16 +38,3 @@ A simple **Rock, Paper, Scissors** game with both a **classic** mode and a **wil
 ---
 🔹 Created by **Terra Manning**  
 ```
-
----
-
-### **📌 What’s Included?**
-✅ **Basic project overview**  
-✅ **Features list**  
-✅ **How to play instructions**  
-✅ **Installation steps**  
-✅ **Live demo link** (replace with actual URL)  
-✅ **Technologies used**  
-✅ **License section**  
-
-Let me know if you need any changes! 🚀😊
