@@ -1,67 +1,43 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <link rel="javascript" href="main.js">
-    <title>Document</title>
+    <title>Rock Paper Scissors</title>
 </head>
-
 <body>
-    <div class="container">
-        <section class="left">
-            <h1 class='sides'>
-              <p class=emoji>🧑🏽‍🦰</p>Human
-            </h1>
-              <div class="human score">
-                <p id="human-score">Wins: 0</p>
-            </div>
-        </section>
-        <section class="main">
-            <h2 class="main-page-view">Rock, Paper, Scissors</h2>
-            <h3 class= "choose-game" id="choose-your-game" > Choose your game!</h3>
-            <section class="button-box-wrapper">
-                <button class="button-box classic-button" id="classic-game" type="button"><b>Classic Game</b><br>
-                    <br>🪨 rock > scissors ✂️ </br>
-                    <br>📄 paper > rock 🪨</br>
-                    <br>✂️ scissors > paper 📄</br>
-                </button>
-            </section>
-            <section>
-                <button class="button-box wildlife-button" id="wildlife-game" type="button"><b>Wild Life Game</b><br>
-                    <br>🐍 snake > bear & mosquito 🧸🦟 </br>
-                    <br>🧸 bear > human & bird 🤺🦅</br>
-                    <br>🦅 bird > mosquito & snake 🦟🐍</br>
-                    <br>🦟 mosquito > bear & human 🧸🤺</br>
-                    <br>🤺 human > bird & snake 🦅🐍</br>
-                </button>
-            </section>
-            <div id="classic-game-play" class="game-play-options">
-                <h3 class="game-play-options" id="classic-game-board"><b>Choose your fighter!</h3>
-                <button class="emoji-button" id="rock-button">🪨</button>
-                <button class="emoji-button" id="paper-button">📄</button>
-                <button class="emoji-button" id="scissor-button">✂️</button>
-            </div>
-            <div id="wildlife-game-play" class="game-play-options">
-                <h3 class="game-play-options" id="wildlife-board">Choose your fighter!</h3>
-                <button class="emoji-button" id="snake-button">🐍</button>
-                <button class="emoji-button" id="bear-button">🧸</button>
-                <button class="emoji-button" id="bird-button">🦅</button>
-                <button class="emoji-button" id="mosquito-button">🦟</button>
-                <button class="emoji-button" id="human-button">🤺</button>
-            </div>
-        </section>
-        <section class="right">
-            <h1 class='sides'>
-                <p class=emoji>💻</p>Computer
-            </h1>
-              <div class="computer-section score">
-                <p id="computer-score">Wins: 0</p>
-              </div>
-        </section>
+  <div class="container">
+    <h1>Rock, Paper, Scissors Game</h1>
+    <h2 class="choose-game">Choose Your Game Mode</h2>
+    <button class="classic-button">Classic Game</button>
+    <button class="wildlife-button">Wildlife Game</button>
+    <div class="game-options">
+      <h2>Choose your fighter!</h2>
+      <div id="classic-game" style="display: none;">
+        <button class="emoji-button">🪨</button>
+        <button class="emoji-button">📄</button>
+        <button class="emoji-button">✂️</button>
+      </div>
+      <div id="wildlife-game" style="display: none;">
+        <button class="emoji-button">🐍</button>
+        <button class="emoji-button">🧸</button>
+        <button class="emoji-button">🦅</button>
+        <button class="emoji-button">🦟</button>
+        <button class="emoji-button">🤺</button>
+      </div>
     </div>
-    <script src="main.js"></script>
+    <div id="scoreboard">
+      <p id="human-score">Wins: 0</p>
+      <p id="computer-score">Wins: 0</p>
+    </div>
+    <div class="result-section">
+      <h2 id="result-text"></h2>
+      <button id="play-again">Play Again</button>
+      <button id="home">Home</button>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
 </body>
-
 </html>
-
