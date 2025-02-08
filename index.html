@@ -1,1 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Rock, Paper, Scissors Game</h1>
+    <h2 class="choose-game">Choose Your Game Mode</h2>
+    <button class="classic-button">Classic Game</button>
+    <button class="wildlife-button">Wildlife Game</button>
+    <div class="game-options">
+      <h2>Choose your fighter!</h2>
+      <div id="classic-game" style="display: none;">
+        <button class="emoji-button">🪨</button>
+        <button class="emoji-button">📄</button>
+        <button class="emoji-button">✂️</button>
+      </div>
+      <div id="wildlife-game" style="display: none;">
+        <button class="emoji-button">🐍</button>
+        <button class="emoji-button">🧸</button>
+        <button class="emoji-button">🦅</button>
+        <button class="emoji-button">🦟</button>
+        <button class="emoji-button">🤺</button>
+      </div>
+    </div>
+    <div id="scoreboard">
+      <p id="human-score">Wins: 0</p>
+      <p id="computer-score">Wins: 0</p>
+    </div>
+    <div class="result-section">
+      <h2 id="result-text"></h2>
+      <button id="play-again">Play Again</button>
+      <button id="home">Home</button>
+    </div>
+  </div>
 
+  <script src="main.js"></script>
+</body>
+</html>
